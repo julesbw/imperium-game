@@ -1,0 +1,22 @@
+# .gitignore
+
+# ── BACKEND ───────────────────────────────────────────────────────
+imperium-backend/.aws-sam/
+imperium-backend/node_modules/
+imperium-backend/layers/shared/node_modules/
+imperium-backend/samconfig.toml
+
+# ── FRONTEND ──────────────────────────────────────────────────────
+imperium-frontend/node_modules/
+imperium-frontend/dist/
+
+# ── GENERAL ───────────────────────────────────────────────────────
+*.env
+.env.*
+*.log
+.DS_Store
+.idea/
+.vscode/*
+!.vscode/extensions.json
+*.suo
+*.sw?
